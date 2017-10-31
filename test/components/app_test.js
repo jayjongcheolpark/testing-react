@@ -6,6 +6,7 @@ describe('App', () => {
   
   // Use 'it' to test a single attribute of a target
   it('shows the correct text', () => {
+    
     // Create an instance of App
     const component = renderComponent(App)
 
