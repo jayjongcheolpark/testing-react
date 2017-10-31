@@ -11,6 +11,7 @@ describe('CommentBox', () => {
   it('has the corrent class', () => {
     expect(component).to.have.class('comment-box')
   })
+
   it('has a text area', () => {
     expect(component.find('textarea')).to.exist
   })
@@ -25,7 +26,7 @@ describe('CommentBox', () => {
     })
 
     it('shows that text in the textarea', () => {
-
+      expect(component.find('textarea')).to.have.value('new comment')
     })
 
     it('when submitted, clears the input', ()=> {
