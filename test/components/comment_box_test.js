@@ -8,7 +8,7 @@ describe('CommentBox', () => {
     component = renderComponent(CommentBox)
   })
 
-  it('has the corrent class', () => {
+  it('has the correct class', () => {
     expect(component).to.have.class('comment-box')
   })
 
